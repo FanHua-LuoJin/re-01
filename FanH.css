@@ -1,0 +1,121 @@
+
+header{
+    text-align: center;
+    background-image: url("C:/Users/g1223/OneDrive/桌面/个人设/个人设1.jpg"),url("C:/Users/g1223/OneDrive/桌面/个人设/个人设3.jpg");
+    background-repeat:no-repeat,no-repeat ;
+    background-position: left,right;
+    background-size:contain,contain;
+    background-color: aqua;
+    font-size: 25px;   /* 字体 */
+    padding: 5px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.card{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+
+
+.oc{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.oc1{
+    width: 576px;
+    height: 768px;
+}
+.oc2{
+    width: 700px;
+    height: 768px;
+}
+
+.interest h2{
+    text-align: center;
+    font-size: 25px;
+}
+.interest p{
+    font-size: 20px;
+}
+
+.butt{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
+#showpic{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background 0.5s;
+}
+
+
+.pic{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pic1{
+    width: 768px;
+    height: 768px;
+}
+.pic2{
+    width: 576px;
+    height: 768px;
+}
+
+#showpic:hover{
+    background: #66ccff;
+    text-decoration: underline;
+}
+
+
+/* .hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+.visible{
+    opacity: 1;
+    pointer-events: auto;
+} */
+
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    background-color: #66ccff;
+    padding: 5px;
+    background-image: url("C:/Users/g1223/OneDrive/桌面/个人设/个人设1.jpg"),url("C:/Users/g1223/OneDrive/桌面/个人设/个人设3.jpg");
+    background-repeat:no-repeat,no-repeat ;
+    background-position: left,right;
+    background-size:contain,contain;
+    margin: 30px 0;
+
+}
